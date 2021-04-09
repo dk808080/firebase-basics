@@ -1,0 +1,31 @@
+/* background imagw for whole page */
+body
+{
+    background-image: url("background.jpg");
+}
+
+/* adding background image, some padding and box shadow to our form */
+#contactForm
+{
+    background-image: url("background3.jpg");
+    padding: 1rem 3rem;
+    box-shadow: 10px 10px 10px 10px  #888888;
+}
+
+/* centering the heading of the form */
+
+#contactForm>h2
+{
+    margin-left: 24rem;
+
+}
+
+/* adding some style to our submit button */
+
+.btn
+{
+    margin-left: 27rem;
+    padding: 1rem;
+    background-color: #abddfc !important;
+    border: 0.2px solid black !important;
+}
